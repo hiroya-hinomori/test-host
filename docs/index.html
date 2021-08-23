@@ -1,9 +1,19 @@
+<!doctype html>
 <html>
-    <body>
-        <div>
-            <a href="kintoglobal://login?callback=https%3A%2F%2Fnext_page">
-                <img src="https://image.lgtmoon.dev/89623" />
-            </a>
-        </div>
-    </body>
+<head>
+<meta charset="UTF-8"> 
+<script type="text/javascript" language="javascript">
+<!--
+function OnClickButton()
+{
+    // URLスキームへ遷移
+    window.location = "kintoglobal://login?callback=https%3A%2F%2Fnext_page";
+}
+// -->
+</script>
+</head>
+<body onload="OnLoad()">
+<h1>JavaScriptでURLスキーマを遷移させる</h1>
+<input type="button" value="URLを(kintoglobal://login?callback=https%3A%2F%2Fnext_page)へ遷移させる" onclick="OnClickButton();">
+</body>
 </html>
